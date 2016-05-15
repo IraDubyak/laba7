@@ -49,18 +49,16 @@
 
     <body>
         <header class="w3-container w3-card-4 w3-theme">
-            <h1>Upload file example</h1>
+            <h1>Upload file created by Ira Dubyak</h1>
         </header>
 
         <div class="w3-card-4 w3-margin">
 
-            <div class="w3-container w3-green">
-              <h2>Input Form</h2>
             </div>
 
             <form class="w3-container" method="POST" action="upload.php" enctype="multipart/form-data">
 
-            <label>File to upload</label>
+            <label>Choose your file</label>
             <input class="w3-input" type="file" id="testfile" name="testfile" required>
 
             <input class="w3-input" type="submit" Value="Submit">
@@ -68,9 +66,5 @@
             </form>
 
         </div>
-
-        <footer>Simple laboratory demo.  (c) 2016 Maksym Davydov.
-        </footer>
-
     </body>
 </html>
